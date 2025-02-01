@@ -25,7 +25,7 @@ const MapComponent = () => {
       map.current = new mapboxgl.Map({
         container: mapContainer.current,
         attributionControl: true,
-        style: mapStyle, // Use the selected style
+        style: mapStyle, 
         center: [-122.3321, 47.6062], // Seattle coordinates
         zoom: 9,
       });
